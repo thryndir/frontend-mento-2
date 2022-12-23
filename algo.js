@@ -12,7 +12,7 @@ function changeColor(rating){
 
 
 rating1.addEventListener("click",function(){
-	click.currentTarget.style.backgroundColor = 'grey';
+	rating1.style.backgroundColor = 'grey';
 	rating2.style.backgroundColor = 'hsl(208, 12%, 21%)';
 	rating3.style.backgroundColor = 'hsl(208, 12%, 21%)';
 	rating4.style.backgroundColor = 'hsl(208, 12%, 21%)';
